@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://chendrix:Mit112389@cluster0-shard-00-00.6mrxl.mongodb.net:27017,cluster0-shard-00-01.6mrxl.mongodb.net:27017,cluster0-shard-00-02.6mrxl.mongodb.net:27017/mern_shopping?ssl=true&replicaSet=atlas-lnhpq9-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "jwtSecret": "sl_myJwtSecret"
+}
