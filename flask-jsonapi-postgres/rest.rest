@@ -1,3 +1,0 @@
-
-### GET hello world
-GET http://localhost:5000/

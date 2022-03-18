@@ -1,0 +1,31 @@
+
+### GET hello world
+GET http://localhost:5000/
+
+### GET recipes
+GET http://localhost:5000/recipes
+
+### POST recipe
+POST http://localhost:5000/recipes
+Content-Type: application/json
+
+{
+  "name" : "test recipe",
+  "description" : "this is a test recipe"
+}
+
+### GET recipe by id
+GET http://localhost:5000/recipes/2
+
+### PUT recipe by id
+PUT http://localhost:5000/recipes/2
+Content-Type: application/json
+
+{
+  "name" : "updated recipe",
+  "description" : "this is an updated recipe"
+}
+
+
+### DELETE recipe by id
+DELETE http://localhost:5000/recipes/2
